@@ -1,0 +1,390 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+<!--         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+           <div class="container">
+               <h1>Barras de Progreso</h1>
+               <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-success" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%"><span>30%</span></div>
+               </div>
+
+               <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-info" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"><span>50%</span></div>
+               </div>
+
+               <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-warning" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span>60%</span></div>
+               </div>
+
+               <div class="progress progress-striped active">
+                <div class="progress-bar progress-bar-danger" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"><span>70%</span></div>
+               </div>
+
+           </div>
+
+           <div class="container">
+                <h1>Barras de Progreso 2</h1>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% completado (éxito)</span></div>
+                    <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% completado (aviso)</span></div>
+                    <div class="progress-bar progress-bar-danger" style="width: 10%"><span class="sr-only">10% completado (peligro/error)</span></div>
+                </div>    
+           </div>
+           
+           <div class="container">
+            <h1 class="">CAPITULO 2 LISTAS</h1>
+            <h2>Listas No Ordenadas</h2>
+            <h4>Es un conjunto de elementos relacionados entre si pero no se indica un orden determinado. </h4>
+            <br>
+    
+            <h4>Creamos una lista con la etiqueta ul y por dentro con cuatro li. Se observa una lista acompañada de viñetas a la izquierda</h4>
+            <h3>Listas</h3>
+            <ul>
+                <li>Inicio</li>
+                <li>Noticias</li>
+                <li>Artículos</li>
+                <li>Contactos</li>
+            </ul>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->	
+            <br>
+            <h4>Se utiliza la clase "list-unstyled" dentro del ul para quitar el estilo por defecto de la lista</h4>
+    
+        
+            <h3>Listas</h3>
+            <ul class="list-unstyled">
+                <li>Inicio</li>
+                <li>Noticias</li>
+                <li>Artículos</li>
+                <li>Contactos</li>
+            </ul>
+    
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+            <h2>Listas Ordenadas</h2>
+            <h4>Es un conjunto de elementos relacionados entre si que se muestran en un orden determinado. </h4>
+            <br>
+            <h4>Creamos una lista con la etiqueta ol y por dentro con cinco li. Se observa una lista acompañada de números a la izquierda</h4>
+            <h3>Listas</h3>
+            <ol>
+                <li>Requerimientos</li>
+                <li>Diseño</li>
+                <li>Implementación</li>
+                <li>Verificación</li>
+                <li>Mantenimiento</li>
+            </ol>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+            <br>
+            <h4>Mediante la clase "list-inline" dentro de la etiqueta ol, se observa como los elementos se ordenan de manera lineal. Esto tambien sirve para las etiquetas ul</h4>
+            <h3>Listas</h3>
+            <ol class="list-inline"> 
+                <li>Requerimientos</li>
+                <li>Diseño</li>
+                <li>Implementación</li>
+                <li>Verificación</li>
+                <li>Mantenimiento</li>
+            </ol>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+            <h2>Lista Basica</h2>
+            <h4>Esta formada por un listado no ordenado de elementos con las clases css adecuadas </h4>
+            <br>
+            <h4>Creamos una lista con la etiqueta ul y por dentro con cinco li. Agregamos en la etiqueta ul la clase "list-group" y en cada etiqueta li la clase "list-group-item"</h4>
+    
+            <h3>Listas</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Imágenes</li>
+                <li class="list-group-item">Archivos</li>
+                <li class="list-group-item">Audios</li>
+                <li class="list-group-item">Videos</li>
+                <li class="list-group-item">Mensajes</li>
+            </ul>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+    
+            <h2>Lista de Elementos con Badges</h2>
+            <h4>Al añadir el componente badge a una lista de elementos este se alineará a la derecha automáticamente </h4>
+            <br>
+            <h4>Creamos una lista con la etiqueta ul y por dentro con cinco li. Agregamos en la etiqueta ul la clase "list-group" y en cada etiqueta li la clase "list-group-item". Agregamos una etiqueta span con la clase "badge" y agregamos un número</h4>
+    
+            <h3>Listas</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><span class="badge">15</span>Imágenes</li>
+                <li class="list-group-item"><span class="badge">80</span>Archivos</li>
+                <li class="list-group-item"><span class="badge">10</span>Audios</li>
+                <li class="list-group-item"><span class="badge">8</span>Videos</li>
+                <li class="list-group-item"><span class="badge">23</span>Mensajes</li>
+            </ul>
+    
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+    
+            <h2>Lista de Elementos con Enlaces</h2>
+            <h4>Se reemplaza la etiqueta li con la etiqueta a dentro de un elemento div </h4>
+            <br>
+            <h4>Creamos una etiqueta div con 5 enlaces. A la etiqueta div le ponemos la clase "list-group" y a cada enlace la clase "list-group-item". Tambien agregaremos badges con sus respectivos números. Se visualiza un hover en cada elemento</h4>
+    
+            <h3>Listas</h3>
+            <div class="list-group">
+                <a href="" class="list-group-item"><span class="badge">15</span>Imagenes</a>
+                <a href="" class="list-group-item"><span class="badge">80</span>Archivos</a>
+                <a href="" class="list-group-item"><span class="badge">10</span>Audios</a>
+                <a href="" class="list-group-item"><span class="badge">17</span>Videos</a>
+                <a href="" class="list-group-item"><span class="badge">23</span>Mensajes</a>
+            </div>
+            <br>
+            <h4>Para crear una lista activa agregamso la clase "active" a los enlaces</h4>
+    
+            <h3>Listas</h3>
+            <div class="list-group">
+                <a href="" class="list-group-item active"><span class="badge">15</span>Imagenes</a>
+                <a href="" class="list-group-item "><span class="badge">80</span>Archivos</a>
+                <a href="" class="list-group-item "><span class="badge">10</span>Audios</a>
+                <a href="" class="list-group-item "><span class="badge">17</span>Videos</a>
+                <a href="" class="list-group-item "><span class="badge">23</span>Mensajes</a>
+            </div>
+    
+            <br>
+            <h4>Para personalizar nuestra lista con iconos fuente agregamos un span con la clase "glyphicon" y "glyphicon-*"</h4>
+    
+            <h3>Listas</h3>
+            <div class="list-group">
+                <a href="" class="list-group-item active">
+                    <span class="glyphicon glyphicon-picture"></span>
+                    <span class="badge">15</span>Imagenes</a>
+                <a href="" class="list-group-item ">
+                    <span class="glyphicon glyphicon-folder-open"></span>
+                    <span class="badge">80</span>Archivos</a>
+                <a href="" class="list-group-item ">
+                    <span class="glyphicon glyphicon-music"></span>
+                    <span class="badge">10</span>Audios</a>
+                <a href="" class="list-group-item ">
+                    <span class="glyphicon glyphicon-film"></span>
+                    <span class="badge">17</span>Videos</a>
+                <a href="" class="list-group-item ">
+                    <span class="glyphicon glyphicon-comment"></span>
+                    <span class="badge">23</span>Mensajes</a>
+            </div>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+    
+            <h2>Clases Contextuales</h2>
+            
+            <br>
+            <h4>Creamos una lista con la etiqueta ul y por dentro con cuatro li. Agregamos en la etiqueta ul la clase "list-group" y en cada etiqueta li la clase "list-group-item" y "list-group-item-*" para darle un estilo de acuerdo al contexto</h4>
+    
+            <h3>Listas</h3>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success">Exito</li>
+                <li class="list-group-item list-group-item-info">Información</li>
+                <li class="list-group-item list-group-item-warning">Advertencia</li>
+                <li class="list-group-item list-group-item-danger">Peligro</li>
+            </ul>
+    
+            <br>
+            <h4>Creamos una etiqueta div con 4 enlaces. A la etiqueta div le ponemos la clase "list-group" y a cada enlace la clase "list-group-item" y "list-group-item-*" para darle un estilo de acuerdo al contexto</h4>
+    
+            <h3>Listas</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">Exito</a>
+                <a href="#" class="list-group-item list-group-item-info">Información</a>
+                <a href="#" class="list-group-item list-group-item-warning">Advertencia</a>
+                <a href="#" class="list-group-item list-group-item-danger">Peligro</a>
+                
+            </div>
+    <!--..............................................
+                    ..............................................
+                    ..............................................-->
+    
+            <h2>Listas de Elementos Complejos</h2>
+            <br>
+            <div class="list-group">
+                <a href="#" class="list-group-item active"><h4 class="list-group-item-heading">Título del elemento de la lista</h4><p class="list-group-item-text">Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Illum ipsam eum earum, animi? Omnis dicta, dignissimos quidem atque, harum, suscipit libero in ut et inventore illo quia vero cupiditate corrupti.</p></a>
+                <a href="#" class="list-group-item"><h4 class="list-group-item-heading">Título del elemento de la lista</h4><p class="list-group-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Eligendi unde ex, velit, voluptatibus quia maiores repudiandae iste eum ipsum exercitationem minima maxime quasi. Natus voluptas fugit assumenda, mollitia labore maxime.</p></a>
+                <a href="#" class="list-group-item"><h4 class="list-group-item-heading">Título del elemento de la lista</h4><p class="list-group-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odio similique deserunt eligendi corporis. Optio ullam minus autem sunt, at fugiat expedita reprehenderit blanditiis laboriosam beatae libero accusantium omnis dolor.</p></a>
+            </div>
+    
+        </div>
+
+        <div class="container">
+            <h1 class="">CAPITULO 3 PANELES</h1>
+            <h2>Panel Básico</h2>
+            <h4>Creamos dos div con texto lorem dentro</h4>
+            <h4>Dentro del primer div agregamos la clase panel y panel-default</h4>
+            <h3>Paneles</h3>
+            <div class="panel panel-default">
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+    
+            <h4>Dentro del segundo div agregamos la clase panel-body</h4>
+            <h3>Paneles</h3>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+    
+    
+            <h2>Panel con Titulo</h2>
+            <h4>Creamos otra etiqueta div con el titulo</h4>
+            <h4>Dentro del div agregamos la clase panel-heading</h4>
+            <h3>Paneles</h3>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Titulo del panel con estilo normal
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+    
+    
+            <h4>Para agregar estilo ponemos la clase panel-tittle</h4>
+            <h3>Paneles</h3>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-tittle">Titulo del panel con estilo normal</h3>
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+            </div>
+    
+    
+            <h2>Panel con Footer</h2>
+            
+            <h3>Paneles</h3>
+            <div class="panel panel-default">
+                
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="panel-footer">
+                    pie de panel
+                </div>
+            </div>
+    
+    
+            <h2>Panel Contextual</h2>
+            
+            <h3>Paneles</h3>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    Titulo 1
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    Titulo 2
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    Titulo 3
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+            </div>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    Titulo 4
+                </div>
+                <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                
+            </div>
+    
+        </div>
+    
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      
+    </body>
+</html>
